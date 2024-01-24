@@ -1,0 +1,44 @@
+.main-container{
+  background-color: #a0a0a0;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .video-container > div {
+    width: 400px; /* Set a fixed width for each Dashboard component */
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+  
+  .video-container > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly elevate on hover */
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .dashboard-button {
+    background-color: #333; /* Dark grey button */
+    color: #fff; /* White text */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #555; /* Darker grey on hover */
+  }
+  
